@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xmlns="http://maven.apache.org/POM/4.0.0"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <groupId>com.phonepe</groupId>
+        <artifactId>pp-parent-pom</artifactId>
+        <version>0.104</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.appform.dropwizard.actors</groupId>
     <artifactId>dropwizard-rabbitmq-actors</artifactId>
-    <version>2.0.28-13</version>
     <version>2.0.28-13</version>
     <name>Dropwizard RabbitMQ Bundle</name>
     <url>https://github.com/santanusinha/dropwizard-rabbitmq-actors</url>
@@ -76,12 +79,6 @@
             </roles>
         </developer>
      </developers>
-
-    <ciManagement>
-        <system>Travis CI</system>
-        <url>https://travis-ci.org/santanusinha/dropwizard-rabbitmq-actors</url>
-    </ciManagement>
-
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
