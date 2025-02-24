@@ -1,0 +1,3 @@
+include:
+  - project: nexus-ecosystem/backend/templates
+    file: "/templates/server-ci.yml"
